@@ -1,0 +1,434 @@
+@charset "utf-8";
+@import url("../webfonts/SpaceGrotesk_Regular/stylesheet.css");
+@import url("../webfonts/Inter_V/stylesheet.css");
+
+
+
+.site-header {
+  background-color: #E6E7EB;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding: 10px 30px;
+}
+
+#título {
+  margin: 0;
+font-size: clamp(12px, 2.5vw, 18px)
+}
+
+
+.menu {
+  margin-left: auto; 
+  font-size: 20px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #A3152C;
+  color: white;
+  text-shadow: 1px 1px #000;
+}
+#chavo{
+	padding: 0 10px;
+}
+
+body{
+    font-family:"SpaceGrotesk Regular";
+    background-color: #E6E7ED;
+    font-size: medium;
+    text-align: left;
+    padding: 0px ;
+    margin: 0px;
+}
+
+h1 {	
+	
+  font-size: clamp(16px, 2.5vw, 48px);
+ 	
+}
+.inicio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+  padding: 10px 80px;
+}
+
+
+.texto-inicio {
+  max-width: 800px;
+
+}
+
+ h1 {
+    font-size: clamp(28px, 4vw, 42px);
+    margin: 0px;
+    font-family: "Inter V";
+}
+
+#P-Portada {
+  font-size: clamp(12px, 4vw, 17px);
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #c4162a;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  border: 2px solid #c4162a;
+
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color:#1F2937;
+ 
+	
+}
+
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+
+  .inicio {
+    flex-direction: column;   
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .texto-inicio {
+    order: 1;
+  }
+
+  .hero-image {
+    order: 2;
+    margin-top: 30px;
+  }
+
+  .hero-image img {
+    max-width: 90%;
+  }
+
+}
+
+.ux-principios {
+  padding: 60px 80px;
+  background-color: #fff;
+}
+
+.titulo-seccion {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+
+.Cuadro-Tarjetas {
+  background-color: #f6f7fb;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.Cuadro-Tarjetas h3 {
+  font-size: 18px;
+  margin: 15px 0 10px;
+}
+
+.Cuadro-Tarjetas p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+.iconos {
+  font-size: 28px;
+}
+
+.Cuadro-Tarjetas {
+  padding: 20px;  
+    justify-items: center;  
+}
+@media (max-width: 768px) {
+
+  .tarjetas {
+    grid-template-columns: 1fr; 
+    justify-items: center;      
+  }
+
+  .Cuadro-Tarjetas {
+    width: 90%;                 
+    max-width: 420px;           
+  }
+
+}
+
+
+.Título-media {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.icono-titulo {
+ display: flex;          
+  align-items: center;    
+  gap: 10px;              
+  width: 100%;
+}
+
+.iconos {
+  font-size: 32px;
+}
+
+.youtube-imagen {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.youtube-imagen img {
+  width: 100%;
+  display: block;
+}
+
+
+.boton-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #d11c2c;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+card {
+    width: 260px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.card-icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+
+.card-texto {
+    flex: 1;
+}
+
+.card-texto h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-texto p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.card-btn {
+    display: inline-block;
+    padding: 6px 16px;
+    background-color: #ffd6d6;
+    color: #c00;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card-btn:hover {
+    background-color: #ffbdbd;
+}
+
+.card-media {
+    position: relative;
+    margin-left: 20px;
+}
+
+.card-media img {
+    width: 160px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 31px;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e60000;
+    color: white;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.p {
+	
+}
+
+#logo-inferior {
+  padding: 0;
+}
+
+.footer{
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: large;
+    font-family: "Inter VariableFont opsz", wght;
+}
+
+
+.footer-contenido {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer-logo {
+  width: 50px;
+}
+
+.footer-copy {
+    font-size: 12px;
+    color: #cccccc;
+    font-family: "Inter V";
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+    font-family: "Inter V";
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+
+.footer-redes {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-redes a {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-redes a:hover {
+  color: #c4162a;
+}
+
+@media (max-width: 900px) {
+
+  .footer-contenido {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-info {
+    align-items: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-redes {
+    margin-top: 10px;
+  }
+
+}
+
+ 

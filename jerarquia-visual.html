@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jerarquía Visual | UVM proyecto</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+  <img 
+    class="logo" 
+    src="img/Logo_UVM_Rojo.svg.png" 
+    width="60" 
+    height="20" 
+    alt="Logo Universidad del Valle de México"
+  >
+
+  <h3 id="título">Universidad del Valle de México</h3>
+
+  <button class="btn-hamburguesa" id="btnHamburguesa" aria-label="Abrir menú" aria-expanded="false">
+    ☰
+  </button>
+
+  
+  <nav class="menu">
+    <ul class="menu-principal">
+      <li><a href="index.html">Inicio</a></li>
+
+      <li class="submenu">
+        <a href="#">Temas</a>
+        <ul class="submenu-lista">
+          <li><a href="diseno-web.html">Diseño Web</a></li>
+          <li><a href="jerarquia-visual.html">Jerarquía Visual</a></li>
+          <li><a href="navegacion-intuitiva.html">Navegación Intuitiva</a></li>
+          <li><a href="enfoque-en-el-usuario.html">Enfoque en el usuario</a></li>
+        </ul>
+      </li>
+
+      <li><a href="recursos.html">Recursos</a></li>
+    </ul>
+  </nav>
+
+  <img id="chavo" src="img/account-circle_119476.png" width="30" height="30" alt="Cuenta de usuario">
+
+  
+  <div class="fondo-menu" id="fondoMenu" aria-hidden="true"></div>
+
+  
+  <nav class="menu-movil" id="menuMovil" aria-hidden="true">
+    <button class="btn-cerrar" id="btnCerrar" aria-label="Cerrar menú">✕</button>
+
+    <a href="index.html" class="link-movil">Inicio</a>
+
+    <p class="titulo-movil">Temas</p>
+    <a href="diseno-web.html" class="link-movil">Diseño Web</a>
+    <a href="jerarquia-visual.html" class="link-movil">Jerarquía Visual</a>
+    <a href="navegacion-intuitiva.html" class="link-movil">Navegación Intuitiva</a>
+    <a href="enfoque-en-el-usuario.html" class="link-movil">Enfoque en el usuario</a>
+
+    <a href="recursos.html" class="link-movil">Recursos</a>
+    <a href="contacto.html" class="link-movil">Contacto</a>
+  </nav>
+
+</header>
+
+<main>
+
+  <section class="jv-hero">
+
+    <div class="jv-hero-texto">
+      <h1 class="jv-titulo">Jerarquía Visual</h1>
+
+      <p class="jv-descripcion">
+        La jerarquía visual es el uso estratégico de elementos en un sitio web para mostrar qué es lo más importante en una página.
+        A través de diferentes técnicas, podemos dirigir la atención del usuario, mejorando la usabilidad y la conversión.
+      </p>
+
+      <a href="#jv-info" class="btn">Ver ejemplos</a>
+    </div>
+
+    <div class="jv-hero-video">
+
+      
+      <div class="video-preview" id="previewVideo" role="button" tabindex="0" aria-label="Reproducir video">
+        <img 
+          src="img/videopreview.png" 
+          alt="Vista previa del video sobre jerarquía visual"
+        >
+        <button class="btn-play" id="btnPlayVideo" type="button" aria-label="Reproducir video">▶</button>
+      </div>
+
+      
+      <div class="video-contenedor oculto" id="contenedorVideo">
+        <iframe
+          id="iframeVideo"
+          src="https://www.youtube.com/embed/_F4MTXXydWA"
+          title="Jerarquía visual en diseño web"
+          frameborder="0"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <p class="nota-video">
+        Nota: video embebido para mantener la página ligera.
+      </p>
+
+    </div>
+
+  </section>
+
+  <section class="jv-info" id="jv-info">
+    <h2 class="jv-subtitulo">¿Qué es la jerarquía visual?</h2>
+
+    <div class="jv-info-grid">
+      <div class="jv-info-texto">
+        <p>
+          La jerarquía visual es el uso estratégico de elementos visuales para mostrar la relevancia entre piezas de
+          información. Ayuda a los usuarios a entender qué ver y hacer primero en una página web.
+        </p>
+
+        <ul class="jv-lista">
+          <li>Captar atención rápidamente</li>
+          <li>Organizar el contenido de forma clara</li>
+          <li>Mejorar la experiencia de usuario</li>
+          <li>Incrementar conversiones (clics, ventas, registros)</li>
+        </ul>
+      </div>
+
+      <div class="jv-info-img">
+        <img src="img/image h1 2.jpg" width="1328" height="784" alt="Ejemplo de título con jerarquía visual">
+      </div>
+    </div>
+  </section>
+
+  <section class="jv-claves">
+    <h2 class="jv-subtitulo">Principios clave de la jerarquía visual</h2>
+
+    <div class="jv-cards">
+
+      <article class="jv-card">
+        <div class="jv-card-top">
+          <span class="jv-badge">1</span>
+          <h3>Tamaño y escala</h3>
+        </div>
+        <p>Los elementos más grandes, como un título H1, atraen la atención antes que los más pequeños.</p>
+        <div class="jv-card-img">
+          <img src="img/f7959e4b-72a7-49ce-bbd9-c9740136834e.jpg" width="1440" height="720" alt="Ejemplo de tamaños y escala">
+        </div>
+      </article>
+
+      <article class="jv-card">
+        <div class="jv-card-top">
+          <span class="jv-icono">🎨</span>
+          <h3>Color y contraste</h3>
+        </div>
+        <p>Colores brillantes o contrastantes hacen que ciertos elementos resalten, como botones importantes.</p>
+        <div class="jv-card-img">
+          <img src="img/1e994837-7823-4532-beca-3cfe98e1a1e5.jpg" width="1408" height="736" alt="Ejemplo de color y contraste">
+        </div>
+      </article>
+
+      <article class="jv-card">
+        <div class="jv-card-top">
+          <span class="jv-icono">📐</span>
+          <h3>Espaciado y disposición</h3>
+        </div>
+        <p>Usar espacio en blanco y disposición ordenada mejora la legibilidad y organización de la información.</p>
+        <div class="jv-card-img">
+          <img src="img/image 2.jpg" width="1376" height="752" alt="Ejemplo de espaciado y layout">
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="jv-frase">
+    <p class="jv-frase-texto">
+      Siempre guíate por la regla: <strong>Lo más importante, más visible</strong>
+    </p>
+    <a href="recursos.html" class="btn jv-btn-recursos">Ver Recursos de Diseño</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-contenido">
+
+    <div class="footer-info">
+      <img 
+        id="logo-inferior" 
+        src="img/Logo_UVM_Rojo.svg.png" 
+        width="60" 
+        height="20" 
+        alt="Logo Universidad del Valle de México"
+      >
+      <p class="footer-copy">Universidad del Valle de México. Todos los derechos reservados</p>
+    </div>
+
+    <nav class="footer-links">
+      <a href="#">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="#">Política de privacidad</a>
+    </nav>
+
+    <div class="footer-redes">
+      <a href="#" aria-label="Facebook">f</a>
+      <a href="#" aria-label="X">X</a>
+      <a href="#" aria-label="Instagram">⌾</a>
+    </div>
+
+  </div>
+</footer>
+
+<script>
+  const preview = document.getElementById("previewVideo");
+  const btnPlay = document.getElementById("btnPlayVideo");
+  const contenedor = document.getElementById("contenedorVideo");
+  const iframe = document.getElementById("iframeVideo");
+
+  function prenderVideo() {
+    if (!preview || !contenedor || !iframe) return;
+
+    preview.style.display = "none";
+    contenedor.classList.remove("oculto");
+
+
+    const base = "https://www.youtube.com/embed/_F4MTXXydWA";
+    iframe.src = base + "?autoplay=1";
+  }
+
+  if (preview) preview.addEventListener("click", prenderVideo);
+  if (btnPlay) btnPlay.addEventListener("click", prenderVideo);
+
+
+  if (preview) {
+    preview.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        prenderVideo();
+      }
+    });
+  }
+</script>
+
+<script src="js/menu-movil.js"></script>
+</body>
+</html>
