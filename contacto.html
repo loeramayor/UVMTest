@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | UVM proyecto</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+  <img
+    class="logo"
+    src="img/Logo_UVM_Rojo.svg.png"
+    width="60"
+    height="20"
+    alt="Logo Universidad del Valle de México"
+  >
+
+  <h3 id="título">Universidad del Valle de México</h3>
+
+ <button class="btn-hamburguesa" id="btnHamburguesa" aria-label="Abrir menú" aria-expanded="false">
+    ☰
+  </button>
+
+  
+  <nav class="menu">
+    <ul class="menu-principal">
+      <li><a href="index.html">Inicio</a></li>
+
+      <li class="submenu">
+        <a href="#">Temas</a>
+        <ul class="submenu-lista">
+          <li><a href="diseno-web.html">Diseño Web</a></li>
+          <li><a href="jerarquia-visual.html">Jerarquía Visual</a></li>
+          <li><a href="navegacion-intuitiva.html">Navegación Intuitiva</a></li>
+          <li><a href="enfoque-en-el-usuario.html">Enfoque en el usuario</a></li>
+        </ul>
+      </li>
+
+      <li><a href="recursos.html">Recursos</a></li>
+    </ul>
+  </nav>
+
+  <img id="chavo" src="img/account-circle_119476.png" width="30" height="30" alt="Cuenta de usuario">
+
+  
+  <div class="fondo-menu" id="fondoMenu" aria-hidden="true"></div>
+
+  
+  <nav class="menu-movil" id="menuMovil" aria-hidden="true">
+    <button class="btn-cerrar" id="btnCerrar" aria-label="Cerrar menú">✕</button>
+
+    <a href="index.html" class="link-movil">Inicio</a>
+
+    <p class="titulo-movil">Temas</p>
+    <a href="diseno-web.html" class="link-movil">Diseño Web</a>
+    <a href="jerarquia-visual.html" class="link-movil">Jerarquía Visual</a>
+    <a href="navegacion-intuitiva.html" class="link-movil">Navegación Intuitiva</a>
+    <a href="enfoque-en-el-usuario.html" class="link-movil">Enfoque en el usuario</a>
+
+    <a href="recursos.html" class="link-movil">Recursos</a>
+    <a href="contacto.html" class="link-movil">Contacto</a>
+  </nav>
+
+</header>
+
+<main>
+
+  <section class="ct-hero">
+    <div class="ct-hero-grid">
+
+      <div class="ct-izq">
+
+        <h1 class="ct-titulo">Contáctanos</h1>
+
+        <p class="ct-texto">
+          Si tienes alguna duda, comentario o sugerencia, por favor no dudes en contactarnos.
+          Estamos aquí para ayudarte a resolver cualquier pregunta que tengas.
+        </p>
+
+        <div class="ct-info-card">
+          <div class="ct-icono">📍</div>
+          <div class="ct-info-texto">
+            <h3>Dirección</h3>
+            <p>Av. Universidad 940, C. Del Valle, Ciudad de México, México 03100</p>
+          </div>
+        </div>
+
+        <div class="ct-info-card">
+          <div class="ct-icono">📞</div>
+          <div class="ct-info-texto">
+            <h3>Teléfono</h3>
+            <p>+52 55 1234 5678</p>
+            <p class="ct-mini">(Lunes a viernes, 9 AM – 6 PM)</p>
+          </div>
+        </div>
+
+        <div class="ct-info-card">
+          <div class="ct-icono">✉️</div>
+          <div class="ct-info-texto">
+            <h3>Email</h3>
+            <p>contacto@uvm.edu.mx</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="ct-der">
+
+        <div class="ct-form-card">
+          <h2 class="ct-form-titulo"><strong>Envíanos</strong> un mensaje</h2>
+
+          <form class="ct-form" action="#" method="post">
+
+            <label class="ct-label" for="nombre">
+              <span>Tu nombre</span>
+              <input class="ct-input" id="nombre" type="text" name="nombre" placeholder="Tu nombre" required>
+            </label>
+
+            <label class="ct-label" for="email">
+              <span>Tu email</span>
+              <input class="ct-input" id="email" type="email" name="email" placeholder="Tu email" required>
+            </label>
+
+            <label class="ct-label" for="asunto">
+              <span>Asunto del mensaje</span>
+              <input class="ct-input" id="asunto" type="text" name="asunto" placeholder="Asunto del mensaje" required>
+            </label>
+
+            <label class="ct-label" for="mensaje">
+              <span>Tu mensaje (opcional)</span>
+              <textarea class="ct-textarea" id="mensaje" name="mensaje" rows="5" placeholder="Tu mensaje (opcional)"></textarea>
+            </label>
+
+            <label class="ct-check" for="privacidad">
+              <input id="privacidad" name="privacidad" type="checkbox" required>
+              <span>Acepto la política de privacidad</span>
+            </label>
+
+            <button class="btn ct-btn-enviar" type="submit">Enviar mensaje</button>
+
+            <p class="ct-nota">
+              Te responderemos en menos de 24 horas hábiles.
+            </p>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="mapa-seccion">
+    <div class="ct-wrap">
+      <h2 class="mapa-titulo">Encuentra nuestra ubicación</h2>
+
+      <div class="mapa-box">
+        <iframe
+          class="mapa-iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30086.52549721427!2d-99.30090282568355!3d19.506563999999983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20345d8585269%3A0xfd96df2d767f6838!2sUVM%20Campus%20Lomas%20Verdes%20%7C%20Universidad%20en%20Naucalpan!5e0!3m2!1ses-419!2smx!4v1771786977352!5m2!1ses-419!2smx"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-contenido">
+
+    <div class="footer-info">
+      <img
+        id="logo-inferior"
+        src="img/Logo_UVM_Rojo.svg.png"
+        width="60"
+        height="20"
+        alt="Logo Universidad del Valle de México"
+      >
+      <p class="footer-copy">
+        Universidad del Valle de México. Todos los derechos reservados
+      </p>
+    </div>
+
+    <nav class="footer-links">
+      <a href="#">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="#">Política de privacidad</a>
+    </nav>
+
+    <div class="footer-redes">
+      <a href="#" aria-label="Facebook">f</a>
+      <a href="#" aria-label="X">X</a>
+      <a href="#" aria-label="Instagram">⌾</a>
+    </div>
+
+  </div>
+</footer>
+
+<script src="js/menu-movil.js"></script>
+</body>
+</html>

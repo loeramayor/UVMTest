@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diseño Web | UVM proyecto</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+  <img class="logo"
+    src="img/Logo_UVM_Rojo.svg.png"
+    width="60" height="20"
+    alt="Logo Universidad del Valle de México">
+
+  <h3 id="título">Universidad del Valle de México</h3>
+
+
+  <nav class="menu" aria-label="Menú principal">
+    <ul class="menu-principal">
+      <li><a href="index.html">Inicio</a></li>
+
+      <li class="submenu">
+        <a href="#" aria-haspopup="true">Temas</a>
+        <ul class="submenu-lista">
+          <li><a href="diseno-web.html">Diseño Web</a></li>
+          <li><a href="jerarquia-visual.html">Jerarquía Visual</a></li>
+          <li><a href="navegacion-intuitiva.html">Navegación Intuitiva</a></li>
+          <li><a href="enfoque-en-el-usuario.html">Enfoque en el usuario</a></li>
+        </ul>
+      </li>
+
+      <li><a href="recursos.html">Recursos</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <button
+    class="btn-hamburguesa"
+    id="btnHamburguesa"
+    aria-label="Abrir menú"
+    aria-expanded="false"
+    type="button"
+  >
+    ☰
+  </button>
+
+  <img id="chavo" src="img/account-circle_119476.png" width="30" height="30" alt="Cuenta de usuario">
+
+</header>
+
+
+<div class="fondo-menu" id="fondoMenu" aria-hidden="true"></div>
+
+
+<aside class="menu-movil" id="menuMovil" aria-hidden="true">
+  <button class="btn-cerrar" id="btnCerrar" aria-label="Cerrar menú" type="button">✕</button>
+
+  <a class="link-movil" href="index.html">Inicio</a>
+
+  <p class="titulo-movil">Temas</p>
+  <a class="link-movil" href="diseno-web.html">Diseño Web</a>
+  <a class="link-movil" href="jerarquia-visual.html">Jerarquía Visual</a>
+  <a class="link-movil" href="navegacion-intuitiva.html">Navegación Intuitiva</a>
+  <a class="link-movil" href="enfoque-en-el-usuario.html">Enfoque en el usuario</a>
+
+  <p class="titulo-movil">Más</p>
+  <a class="link-movil" href="recursos.html">Recursos</a>
+  <a class="link-movil" href="contacto.html">Contacto</a>
+</aside>
+
+<main>
+
+  <section class="info-web">
+    <div class="info-web-grid">
+
+      <article class="texto-web">
+        <h1 class="titulo-grande">¿Qué es el diseño web?</h1>
+        <p>&nbsp;</p>
+        <p>
+          El diseño web es el proceso de planear y construir páginas que se vean bien y funcionen mejor. No se trata solo de “que se vea bonito”, sino de que el usuario entienda rápido qué hacer, encuentre lo que busca y tenga una experiencia cómoda en celular, tablet o computadora.
+        </p>
+
+        <p>
+          Un buen diseño web combina estructura (HTML), estilo (CSS) y comportamiento (JavaScript).
+          Además, considera temas como jerarquía visual, tipografía, consistencia, accesibilidad y tiempos de carga.
+        </p>
+
+        <ul class="lista-check">
+          <li><b>Claridad:</b> que el usuario entienda el contenido sin esfuerzo.</li>
+          <li><b>Usabilidad:</b> que navegar sea intuitivo.</li>
+          <li><b>Responsive:</b> que se adapte a cualquier pantalla.</li>
+          <li><b>Consistencia:</b> mismos estilos y reglas en todo el sitio.</li>
+        </ul>
+      </article>
+
+      <aside class="caja-dato">
+        <h3>Dato rápido</h3>
+        <p>
+          Si un usuario “se pierde” en tu sitio, no es culpa del usuario: es señal de que hay que mejorar
+          la navegación y la jerarquía visual.
+        </p>
+
+        <img src="img/image pagina web.jpg" width="326" height="248" alt=""/>
+      </aside>
+
+    </div>
+  </section>
+
+  <section class="bloque-importancia">
+    <div class="wrap">
+      <h2 class="titulo-seccion-blanco">Importancia del diseño web</h2>
+      <p class="subtitulo-blanco">
+        Invertir en diseño web no solo embellece tu sitio, también lo hace más útil y efectivo para tus objetivos.
+      </p>
+
+      <div class="importancia-cards">
+
+        <div class="card-imp">
+          <div class="icono-titulo">
+            <span class="iconos">🧲</span>
+            <h3>Atraer tráfico</h3>
+          </div>
+          <p>
+            Un diseño web atractivo y bien estructurado ayuda a captar la atención del usuario desde el primer momento.
+            Cuando el sitio es claro, visualmente agradable y fácil de navegar, las personas permanecen más tiempo explorando el contenido y regresan con mayor frecuencia.
+          </p>
+        </div>
+
+        <div class="card-imp">
+          <div class="icono-titulo">
+            <span class="iconos">👍</span>
+            <h3>Mejorar conversiones</h3>
+          </div>
+          <p>
+            Un buen diseño web guía al usuario hacia acciones específicas, como registrarse, contactar o comprar.
+            Botones visibles, textos claros y una navegación sencilla aumentan la probabilidad de que el usuario complete el objetivo principal del sitio.
+          </p>
+        </div>
+
+        <div class="card-imp">
+          <div class="icono-titulo">
+            <span class="iconos">✅</span>
+            <h3>Dar confianza</h3>
+          </div>
+          <p>
+            Un sitio web bien diseñado transmite profesionalismo y credibilidad. Cuando el usuario percibe orden, consistencia visual y cuidado en los detalles,
+            es más probable que confíe en la marca, empresa o institución que está detrás del sitio.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="ux-principios">
+    <h2 class="titulo-seccion">Tecnologías base</h2>
+
+    <div class="tarjetas">
+      <div class="Cuadro-Tarjetas">
+        <div class="icono-titulo">
+          <span class="iconos">📄</span>
+          <h3>HTML</h3>
+        </div>
+        <p>HTML permite organizar el contenido de un sitio web mediante etiquetas. Estas etiquetas ayudan a los motores de búsqueda, lectores de pantalla y navegadores a entender la jerarquía del contenido.</p>
+        <img src="img/Image 3.png" width="350" height="200" alt=""/>
+      </div>
+
+      <div class="Cuadro-Tarjetas">
+        <div class="icono-titulo">
+          <span class="iconos">🎨</span>
+          <h3>CSS</h3>
+        </div>
+        <p>CSS se encarga de la parte visual del sitio web. Controla colores, tipografías, tamaños, márgenes y la forma en que los elementos se acomodan en pantalla. Además, CSS permite crear diseños responsivos y animaciones que mejoran la experiencia del usuario.</p>
+        <img src="img/Image 1.png" width="350" height="200" alt=""/>
+      </div>
+
+      <div class="Cuadro-Tarjetas">
+        <div class="icono-titulo">
+          <span class="iconos">⚙️</span>
+          <h3>JavaScript</h3>
+        </div>
+        <p>JavaScript añade interacción al sitio web. Gracias a este lenguaje, los elementos pueden reaccionar a las acciones del usuario, como clics, desplazamientos o formularios. También permite actualizar contenido sin recargar la página, haciendo los sitios más dinámicos y modernos.</p>
+        <img src="img/Image 2.png" width="350" height="200" alt=""/>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-contenido">
+
+    <div class="footer-info">
+      <img id="logo-inferior" src="img/Logo_UVM_Rojo.svg.png" width="60" height="20" alt="Logo Universidad del Valle de México">
+      <p class="footer-copy">Universidad del Valle de México. Todos los derechos reservados</p>
+    </div>
+
+    <nav class="footer-links">
+      <a href="#">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="#">Política de privacidad</a>
+    </nav>
+
+    <div class="footer-redes">
+      <a href="#" aria-label="Facebook">f</a>
+      <a href="#" aria-label="X">X</a>
+      <a href="#" aria-label="Instagram">⌾</a>
+    </div>
+
+  </div>
+</footer>
+
+<script src="js/menu-movil.js"></script>
+</body>
+</html>
